@@ -32,7 +32,7 @@ import LogoSite from '../icons/Logo_Site.vue';
 </nav>
  <div class="border border-lime-600 mx-32"></div>
     
-<div class="text-center m-20">
+<div class="text-center m-10">
     <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard</p>
     <p class="my-5">© Produit Vert 2023</p>
 </div>
