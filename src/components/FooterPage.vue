@@ -1,26 +1,40 @@
 <script setup lang="ts">
+import LogoFacebook from '../icons/LogoFacebook.vue';
+import LogoLinkedin from '../icons/LogoLinkedin.vue';
+import LogoInsta from '../icons/LogoInsta.vue';
+import LogoSite from '../icons/Logo_Site.vue';
 </script>
 
 <template>
-    <footer>
-    <div class="grid-cols-2">
+    <footer class="bg-neutral-800 py-10">
+        <div class="mx-5 inline-flex items-center lg:place-content-center">
+            <LogoSite></LogoSite>
+            <p class="text-4xl ml-12">Produit Vert</p>
+        </div>
+    <div class="columns-2 mx-8 my-8 place-content-end leading-10 lg:columns-3 lg:col-span-3">
     <ul>
-        <li><a href="#">Mon compte</a></li>
-        <li><a href="#">Recettes</a></li>
-        <li><a href="#">Conseils d'experts</a></li>
-        <li><a href="#">Planning</a></li>
-    </ul>
-
-    <ul>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Besoin d'aide</a></li>
-        <li><a href="#">Mentions légales</a></li>
+        <li class="before:content-['-']"><a href="#"> Mon compte</a></li>
+        <li class="before:content-['-']"><a href="#"> Recettes</a></li>
+        <li class="before:content-['-']"><a href="#"> Conseils d'experts</a></li>
+        <li class="before:content-['-']"><a href="#"> Planning</a></li>
+        <li class="before:content-['-']"><a href="#"> Contact</a></li>
+        <li class="before:content-['-']"><a href="#"> Besoin d'aide</a></li>
+        <li class="before:content-['-']"><a href="#"> Mentions légales</a></li>
     </ul>
 </div>
-
-<div class="legal">
+ <div class="border border-lime-600 mx-32"></div>
+<nav >
+    <ul class="flex gap-8 py-8 place-content-center">
+        <li><a href="#"></a><LogoInsta /></li>
+        <li><a href="#"></a><LogoFacebook /></li>
+        <li><a href="#"></a><LogoLinkedin /></li>
+    </ul>
+</nav>
+ <div class="border border-lime-600 mx-32"></div>
+    
+<div class="text-center m-20">
     <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard</p>
-    <p>Produit Vert 2023</p>
+    <p class="my-5">© Produit Vert 2023</p>
 </div>
     </footer>
 </template>

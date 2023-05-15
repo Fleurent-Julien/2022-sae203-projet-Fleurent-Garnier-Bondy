@@ -3,5 +3,5 @@ import FooterPage from './components/FooterPage.vue';
 </script>
 
 <template>
-  <FooterPage></FooterPage>
+  <FooterPage class="text-white"></FooterPage>
 </template>
