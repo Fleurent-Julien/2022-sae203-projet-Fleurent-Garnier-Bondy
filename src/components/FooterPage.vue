@@ -21,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <li class="before:content-['-']"><a href="#"> Planning</a></li>
         <li class="before:content-['-']"><a href="#"> Contact</a></li>
         <li class="before:content-['-']" ><RouterLink to="/forum"> Besoin d'aide</RouterLink></li>
-        <li class="before:content-['-']"><RouterLink to="/accueil"> Mentions légales</RouterLink></li>
+        <li class="before:content-['-']"><RouterLink to="/mentions_legales"> Mentions légales</RouterLink></li>
     </ul>
 </div>
  <div class="border border-lime-600 mx-32"></div>
