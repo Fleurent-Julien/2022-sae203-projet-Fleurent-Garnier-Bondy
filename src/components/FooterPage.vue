@@ -3,6 +3,8 @@ import LogoFacebook from '../icons/LogoFacebook.vue';
 import LogoLinkedin from '../icons/LogoLinkedin.vue';
 import LogoInsta from '../icons/LogoInsta.vue';
 import LogoSite from '../icons/Logo_Site.vue';
+import { RouterLink, RouterView } from 'vue-router'
+
 </script>
 
 <template>
@@ -18,8 +20,8 @@ import LogoSite from '../icons/Logo_Site.vue';
         <li class="before:content-['-']"><a href="#"> Conseils d'experts</a></li>
         <li class="before:content-['-']"><a href="#"> Planning</a></li>
         <li class="before:content-['-']"><a href="#"> Contact</a></li>
-        <li class="before:content-['-']"><a href="#"> Besoin d'aide</a></li>
-        <li class="before:content-['-']"><a href="#"> Mentions légales</a></li>
+        <li class="before:content-['-']" ><RouterLink to="/forum"> Besoin d'aide</RouterLink></li>
+        <li class="before:content-['-']"><RouterLink to="/accueil"> Mentions légales</RouterLink></li>
     </ul>
 </div>
  <div class="border border-lime-600 mx-32"></div>
