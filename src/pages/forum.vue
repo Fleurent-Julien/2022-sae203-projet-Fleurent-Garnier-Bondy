@@ -4,7 +4,7 @@
     <h1 class="ml-5 mt-5 text-4xl text-lime-700">Besoin d'aide ?</h1>
     <p class="mx-5 text-2xl text-lime-700">Vous trouverez surement une réponse ici !</p>
 
-<p class="ml-5 my-10 text-xl font-bold">Forum [Site Projet]</p>
+<p class="ml-5 my-10 text-xl font-bold">Forum French Recipe</p>
 
  <img src="../img/forum.webp" alt="image forum" class="flex m-auto h-max">
 

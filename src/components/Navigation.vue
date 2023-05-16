@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import IconAvatar from '../icons/LogoFacebook.vue';
-import IconBook from '../icons/LogoFacebook.vue';
-import IconCalendar from '../icons/LogoFacebook.vue';
-import IconHome from '../icons/LogoFacebook.vue';
-import IconInterrogation from '../icons/LogoFacebook.vue';
+import IconAvatar from '../icons/IconAvatar.vue';
+import IconBook from '../icons/IconBook.vue';
+import IconCalendar from '../icons/IconCalendar.vue';
+import IconHome from '../icons/IconHome.vue';
+import IconInterrogation from '../icons/IconInterrogation.vue';
 </script>
 
 <template>

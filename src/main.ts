@@ -8,7 +8,11 @@ const app = createApp(App)
 app.use(
   createRouter({
     history: createWebHistory(),
-    routes
+    routes,
+    scrollBehavior(to, from, savedPosition) {
+    // always scroll to top
+    return { top : 0}
+    },
   })
 )
 
