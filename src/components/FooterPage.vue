@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-    <footer class="bg-neutral-800 py-10 text-white">
+    <footer class="bg-neutral-800 py-10 text-white z-10 relative">
         <div class="mx-2 inline-flex items-center">
             <LogoSite></LogoSite>
             <p class="text-4xl ml-2">French Recipe</p>
@@ -17,7 +17,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <ul>
         <li class="before:content-['-']"><a href="#"> Mon compte</a></li>
         <li class="before:content-['-']"><a href="#"> Recettes</a></li>
-        <li class="before:content-['-']"><a href="#"> Conseils d'experts</a></li>
+        <li class="before:content-['-']"><RouterLink to="/conseil"> Conseils d'experts</RouterLink></li>
         <li class="before:content-['-']"><a href="#"> Planning</a></li>
         <li class="before:content-['-']"><RouterLink to="/contact"> Contact</RouterLink></li>
         <li class="before:content-['-']" ><RouterLink to="/forum"> Besoin d'aide</RouterLink></li>

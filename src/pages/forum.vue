@@ -1,4 +1,7 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import FooterPage from '@/components/FooterPage.vue';
+import Navigation from '@/components/Navigation.vue';
+</script>
 
 <template>
     <h1 class="ml-5 mt-5 text-4xl text-lime-700">Besoin d'aide ?</h1>
@@ -15,5 +18,6 @@
 <p class="text-center text-xl">Ou bien contactez-nous !</p>
 
     <button class="flex text-white font-bold m-auto my-10 border-4 border-lime-700 bg-lime-700 px-5 py-1 rounded-full mb-40"><RouterLink to="/contact">Nous contacter</RouterLink></button>
-
+<Navigation></Navigation>
+<FooterPage></FooterPage>
 </template>

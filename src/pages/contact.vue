@@ -1,5 +1,7 @@
 <script setup lang="ts">
 import IconArrow from '../icons/IconArrow.vue';
+import FooterPage from '@/components/FooterPage.vue';
+import Navigation from '@/components/Navigation.vue';
 </script>
 
 <template>
@@ -37,4 +39,7 @@ import IconArrow from '../icons/IconArrow.vue';
 
            <button type="submit" class="flex text-white font-bold m-auto my-10 border-4 border-lime-700 bg-lime-700 px-5 py-1 rounded-full mb-32">Envoyer</button>
        </form>
+
+       <Navigation></Navigation>
+        <FooterPage></FooterPage>
 </template>
