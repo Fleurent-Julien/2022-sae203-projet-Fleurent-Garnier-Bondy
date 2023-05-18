@@ -9,7 +9,5 @@ import FooterPage from '@/components/FooterPage.vue';
     <cardconseils></cardconseils>
     <cardconseils></cardconseils>
     <cardconseils></cardconseils>
-    <Navigation></Navigation>
-    <FooterPage></FooterPage>
     </main>
 </template>

@@ -6,9 +6,6 @@ import FooterPage from '@/components/FooterPage.vue';
 </script>
 
 <template>
-  <cardconseils></cardconseils>
-      <cardconseils></cardconseils>
-      <cardconseils></cardconseils>
       <Navigation></Navigation>
       <FooterPage></FooterPage>
   <RouterView />

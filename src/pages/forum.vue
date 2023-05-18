@@ -18,6 +18,5 @@ import Navigation from '@/components/Navigation.vue';
 <p class="text-center text-xl">Ou bien contactez-nous !</p>
 
     <button class="flex text-white font-bold m-auto my-10 border-4 border-lime-700 bg-lime-700 px-5 py-1 rounded-full mb-40"><RouterLink to="/contact">Nous contacter</RouterLink></button>
-<Navigation></Navigation>
-<FooterPage></FooterPage>
+
 </template>
