@@ -1,4 +1,4 @@
-<script></script>
+<script setup lang="ts"></script>
 
 <template>
     <h1 class="ml-5 mt-5 text-4xl text-lime-700">Besoin d'aide ?</h1>

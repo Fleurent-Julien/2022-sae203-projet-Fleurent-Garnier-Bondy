@@ -1,4 +1,4 @@
-<script></script>
+<script setup lang="ts"></script>
 
 <template>
     <h1 class="text-4xl text-lime-700 ml-5 mr-96 my-5">Mentions légales</h1>

@@ -9,12 +9,9 @@ const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     { path: '/forum', name: 'forum', component: Forum },
-    { path: '/accueil', component: Accueil },
+    { path: '/accueil', name: 'accueil', component: Accueil },
     { path: '/mentions_legales', component: MentionsLegales },
     { path: '/contact', component: Contact },
-    { path: '/connexion', redirect: '/contact', component: Connexion},
-    { path: '/404', name: 'NotFound', component: NotFound },
-    { path: '/:catchAll(.*)', redirect:'404'}
   ]
 })
 
