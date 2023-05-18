@@ -5,7 +5,7 @@ import IconArrow from '../icons/IconArrow.vue';
 <template>
    <header class="bg-lime-700 text-white">
     <div class="flex mx-5 pt-10 items-center space-x-28">
-       <IconArrow></IconArrow>
+       <RouterLink to="/forum"><IconArrow></IconArrow></RouterLink>
        <p class="text-lg justify-self-center">Contact</p>
     </div>
 
@@ -14,7 +14,7 @@ import IconArrow from '../icons/IconArrow.vue';
    
        <form class="mx-14 mt-16">
 
-           <div class="inline-block">
+           <div>
                <label for="last-name" class="text-2xl">Nom</label>
                <input type="text" name="first-name" id="first-name" class="border border-lime-600 bg-blue-100 rounded-lg text-2xl mb-5">
            </div>

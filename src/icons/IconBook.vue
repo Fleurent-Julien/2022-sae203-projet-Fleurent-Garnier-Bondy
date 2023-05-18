@@ -1,10 +1,17 @@
-<template><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="30" height="30" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_99_96" transform="scale(0.01)"/>
-</pattern>
-<image id="image0_99_96" width="100" height="100" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAACXBIWXMAAAsTAAALEwEAmpwYAAADmElEQVR4nO2du2sVQRSHR0FIVPAR0EIFDfiCKFhYm1QxjWKhjdoIKgbFRkQR/B8sBQU7LUXwWQiCGI2VlY8iUdRCRQtN4yN+Mtwt1uvm3l1ndubsnfPBhcBO2N+Z787eYZedMUZRFEVRBACsAY4Dt4HnwAyJYyKJWAVcBH7G7gBpxJCxC/gau3CphJZxApiNXbRkQsoYA37FLlg6IX8z9DIlSMilMmEUCDW11UuVICH2h1wRJORW2TAKQYS80o6WJeRbhTzJYwIIUSqgQoShQoShQoSRmpDvwFVgL7AW6M8+9u99wLWsTTRSEnLddnyJvOuAG7FCpiDkN3D6P3Kfyf43KPVY+Luw2Jx1yH4udFi/vV9cVJ08BsaBIWBZ9tkCHAUmgTuO2ecBd4EnwJGC84xnGbzhr+fnLqoOpuwDL9P93H0e8veVfPhmMznjmrdMQb6x39aVRhjAAPDQtbgQQX3y1l4ujFCAJcBrlwJDhPSFnfEMG+EAIy6zsxABfXHTNAQcngGFCOeL/aYhAAdTELLBNARgUwpC+k1DABalIGSxaQi0Zls9L2S9aQjAxhSEHDINATicgpD7piEAD1IQYtlhhAMMuxQYIqBP7A28pUYotO4CT7sUGCKkbyYl3s8ClgNPXYsLEbQO3gCjXc67G/gIfLBvbfk+3tZ2NMvkjKkb6mWiw3nf59q98308127CZ0GmbnyGrVIAXdq5Hs+18/rc3dSNz7BVCqBLO9fjuXYqRIU4UN/Y6PrNdRoBFc6jI6RkR03nmk35Pq5Cqo+QsewZvP3s9H1chVQUEgq9ZKkQN6gZExkdISpE9gjpNRy7W4X4RoUIQ4UIo/FCTGR0lqVC3NARUg3H7lYh6N3ef1htImHPXXEA9P4IofUuRnAp2Up53tcCCxFcqYAKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEYYKEUZsIbPZAscHgEFgYe2BUqeDjGfA1tj5kmMOGY+atNxST1Eg4wuwInauZCkQcj52pqQpEDIUO1PSFAjRmVRMgM9tQgaiBkqdbHqbZyR2pqQBLrcJuRI7U9LYl+7bhNiNirfHzpUswALgRZsUuxbVYOxsyVIwSiyfgD2xsyULcIFi7JZBx4DNdonu2DmTAZif7ROodCC0FLvJ1kngR6dQKWNiAGzLNm8Mvk+gdKIIadtn4xRwD3gJzJA4RlEURVFMGP4AsJlF0gXRF+gAAAAASUVORK5CYII="/>
-</defs>
+<template>
+
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50">
+  <g id="Livre_de_recette" data-name="Livre de recette">
+    <g>
+      <path class="cls-1" d="M40.41,5c-9.54,0-29,.13-29.25.2A3.64,3.64,0,0,0,8.68,8.67c0,2.67,0,5.35,0,8V42.11a3.64,3.64,0,0,0,2.72,3.68,4.74,4.74,0,0,0,1.07.12h27.4a2.23,2.23,0,0,0,2.37-2.38V7.38C42.24,6.17,41.75,5.53,40.41,5Zm-3,39.32h-25a2,2,0,0,1-1.94-1.09,2,2,0,0,1,1.63-3,4.52,4.52,0,0,1,.52,0H37.44Zm3.19-.57a.58.58,0,0,1-.61.57h-.94V40.2h1.56C40.64,41.36,40.65,42.56,40.63,43.75Zm-.9-5.15H13.38a7.84,7.84,0,0,0-2.92.5l-.16.06a2.51,2.51,0,0,1,0-.3q0-15,0-30.09A2,2,0,0,1,11.87,6.7s19.25-.1,27.85-.1a.93.93,0,0,1,.93.92V37.68A.92.92,0,0,1,39.73,38.6Z"/>
+      <path class="cls-1" d="M33.92,13.78a4.88,4.88,0,0,0-2.93.16,4.78,4.78,0,0,0-7.86,0l-.26-.08a4.72,4.72,0,0,0-3.43,8.78c.26.11.28.26.28.49q0,4.35,0,8.71c0,1,.47,1.48,1.5,1.48h11.7c1,0,1.49-.46,1.49-1.48,0-2.88,0-5.76,0-8.63a.57.57,0,0,1,.38-.63,4.66,4.66,0,0,0,2.65-4.66A4.72,4.72,0,0,0,33.92,13.78ZM32.78,31.7H21.33V30.15H32.78Zm3-12.89a3,3,0,0,1-2.24,2.54c-.61.19-.76.38-.76,1V28.5H21.31V22.41c0-.68-.13-.86-.77-1.06a3.13,3.13,0,0,1-2.24-3.47,3.09,3.09,0,0,1,3.32-2.64,4.13,4.13,0,0,1,1.32.41c.62.27,1,.18,1.32-.43a3.12,3.12,0,0,1,5.59,0,.85.85,0,0,0,1.34.42,3,3,0,0,1,3.35.18A2.93,2.93,0,0,1,35.8,18.81Z"/>
+    </g>
+  </g>
 </svg>
 </template>
+
+<style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>

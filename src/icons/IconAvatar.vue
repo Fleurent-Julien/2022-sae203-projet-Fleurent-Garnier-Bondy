@@ -1,10 +1,16 @@
-<template><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<rect width="30" height="30" fill="url(#pattern0)"/>
-<defs>
-<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-<use xlink:href="#image0_99_99" transform="scale(0.015625)"/>
-</pattern>
-<image id="image0_99_99" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEFklEQVR4nO2bbWjVVRjAz6ZL0GGwQPENyYpEU3CSll80fGHRR6EXwpwlvmtCuIQVmBoSWk2wsZBlX4KC2kpFWDpF0y/ilxJUxPKtb+J0Ls182U8e7jO4HM+9u/f/P939z/b/wfm0e5/nOeee85zn5cyYlJSUlJSUkgBMAT4GjgDngH90nAUOAKuAsaa/AcwATlAY94GvgVEmdIBy4HOgm+LpBF4zoQIMBr4jHg/kWJgQATY7JiQ74SfgDeBpYJiOScA64PccixDWTgBmqeHZXAJmFnBklgN3re/eDMonAAetCVwtxrsDsx2L0GRCAJjq2MZzIshZ6bgdxpikA9Rbhh+KKEeOwx+WrOQ7RKDdMro2hqz3LVn7TdIh4+yyeTaGLLkdsjlrkg5w2zJ6aAxZlZasLjPAFmC4JavTBHgEnosha3KIR+CQZfSSGLLWW7L2mQCvwfaIcgYBpy1ZK02ggdArEeRIbcAOhEabEADaYobCcxyhcKMJBeBlRzJ0GXipgG2/yjH5G8BIExLAJznS4RbgTQmQNBWuVG+/3nHm0YV81QzggsgKEypAGbAdeBhh8rLta0x/AHgROF7gxMXbNwZ35gtBz3q9ZoxSCu/ScUYyPdnuwVx1KSkpsQGelGH6K2RiAWmLLQW+AH4FLgAdjgCpQ//Wpp9dqrfHYBMSZCK8tcAv2t6Ki/QEfgbWAM+YJEKmcvOO9gOi9AGL4ZQWS6uSMPExwFeOMlihdMbYJaJzV5/EDcBIoAH4twBDr2kCJL3C14EX5NeTur/VA6jS9wPymS1Aq363N8SGL4ERpZp8rcbpuZAjcBTYAEzLnmgEXbIw1UAdcKyX4yVOdJHf2WYBPAHszmOAFEM3ARPM/4Q4QU2z7cJrNvK4osK34kHADzkUXlanNMSr0vz2VKjTlWvTRavX6xPY4VDyH/Ch7AxviqLtyo3APYd9n/lSUu3I5/+UIMUkBA22xCa7mDLNh/BvLcF/JfGxglyHwEXL1m98CL5iCV1gEorUDi1bL8UVWG5t/+4kx+bqHLutY1AWV2iXtarjTULRh1d+m6k8/sCx3iQU4CPL1mM+hNZZQm8l6QboAZjuyCs2+BBcBVy3BN/QfD1ymOs5SFvmCM87vGWMZKIuFxKSbgWe96Ko+Cas6P47h21LfCv8lPycB/YA7wIT5Zfx7N2rtWzerLFIPrb50u16u1dICtwTKp/Ter+UuD4A3gMWAnP1zPYMeVk6T2IMyeg0xN4J/AicLELnHWC1KcFV0+y4HvsSccxNJb2iyXR1FwOHtZ1VauTX3qv1iWElm3iexZivufphR9XXBx36nybi+Gr6fNK9ATylWdpbGqA0qJNs0d7gqazxmxZUZXyvJS7xGW/rw+lxvSpMSUlJSUkxxfIIlyCX4Y85v0QAAAAASUVORK5CYII="/>
-</defs>
+<template><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50">
+
+  <g id="Compte">
+    <g>
+      <path class="cls-1" d="M38.05,30a12.1,12.1,0,0,0-6.77-5.84.43.43,0,0,0-.36.07,8.59,8.59,0,0,1-10.73,0,.45.45,0,0,0-.39-.05,13.38,13.38,0,0,0-1.35.58,11.57,11.57,0,0,0-5.58,5.63A7.75,7.75,0,0,0,12.19,35a5.15,5.15,0,0,0,5.2,4.31H33.61a7.77,7.77,0,0,0,1-.06A5.2,5.2,0,0,0,39,34.74,8.39,8.39,0,0,0,38.05,30Z"/>
+      <path class="cls-1" d="M25.47,24.64a7.06,7.06,0,1,0,.09-14.11,7.06,7.06,0,0,0-.09,14.11Z"/>
+    </g>
+  </g>
 </svg>
-</template>
+</template> 
+
+<style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>

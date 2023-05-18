@@ -8,7 +8,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-    <footer class="bg-neutral-800 py-10">
+    <footer class="bg-neutral-800 py-10 text-white">
         <div class="mx-2 inline-flex items-center">
             <LogoSite></LogoSite>
             <p class="text-4xl ml-2">French Recipe</p>
