@@ -6,7 +6,7 @@ import FooterPage from '@/components/FooterPage.vue';
 </script>
 
 <template>
-      <Navigation></Navigation>
+      <Navigation></Navigation>  
+      <RouterView />
       <FooterPage></FooterPage>
-  <RouterView />
 </template>
