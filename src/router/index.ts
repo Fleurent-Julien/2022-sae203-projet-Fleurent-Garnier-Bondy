@@ -4,13 +4,13 @@ import MentionsLegales from '@/pages/mentions_legales.vue'
 import Contact from '@/pages/contact.vue'
 import Inscription from '@/views/inscription.vue'
 import Connexion from '@/views/connexion.vue'
-import Index from '@/views/accueil.vue'
+import Accueil from '@/pages/index.vue'
 import Conseil from '@/pages/conseil.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/index', name: 'index', component: Index },
+    { path: '/', component: Accueil },
     { path: '/forum', name: 'forum', component: Forum },
     { path: '/mentions_legales', component: MentionsLegales },
     { path: '/contact', component: Contact },

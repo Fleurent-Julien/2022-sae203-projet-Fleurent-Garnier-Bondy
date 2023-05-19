@@ -10,7 +10,7 @@ import IconInterrogation from '../icons/IconInterrogation.vue';
     <nav class="bg-lime-800 flex justify-between py-5 px-3 text-white bottom-0 fixed w-full z-1">
         <RouterLink to="/conseil"><IconInterrogation class="block mx-auto" /><p>Conseil</p></RouterLink>
         <a href="#"><IconCalendar class="block mx-auto" /><p>Planning</p></a>
-        <a href="#"><IconHome class="block mx-auto" /><p>Accueil</p></a>
+        <RouterLink to="/"><IconHome class="block mx-auto" /><p>Accueil</p></RouterLink>
         <a href="#"><IconBook class="block mx-auto" /><p>Recettes</p></a>
         <a href="#"><IconAvatar class="block mx-auto" /><p>Compte</p></a>  
 
