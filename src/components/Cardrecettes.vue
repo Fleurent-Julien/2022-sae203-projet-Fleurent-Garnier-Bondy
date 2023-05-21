@@ -5,14 +5,14 @@ import LogoInsta from '@/icons/LogoInsta.vue';
 
 <template>
 
-   
-<div class="border border-white rounded-xl mx-10 my-20 shadow-xl shadow-black/50">
-         <Avatarconnexion class="flex m-auto -mt-10 mb-10"></Avatarconnexion>
+   <div class="mt-5">
+<div class="border border-white rounded-xl mx-5 my-10 shadow-xl shadow-black/50">
+         <Avatarconnexion class="flex m-auto h-auto -mt-10 mb-10"></Avatarconnexion>
         <div>
             <p class="text-center text-xl">Crevettes sautées</p>
         </div>
 
-    <div class="flex justify-between mx-16 my-5">
+    <div class="flex justify-between mx-5 my-1">
         <div>
             <LogoInsta></LogoInsta>
             <p>30 min</p>
@@ -24,5 +24,6 @@ import LogoInsta from '@/icons/LogoInsta.vue';
             </div>
     </div>
     
+</div>
 </div>
 </template>

@@ -6,6 +6,8 @@ import Inscription from '@/views/inscription.vue'
 import Connexion from '@/views/connexion.vue'
 import Accueil from '@/pages/index.vue'
 import Conseil from '@/pages/conseil.vue'
+import Recettes from '@/pages/recettes.vue'
+import Compte from '@/pages/compte.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +19,8 @@ const router = createRouter({
     { path: '/inscription', component: Inscription },
     { path: '/connexion', component: Connexion },
     { path: '/conseil', component: Conseil },
+    { path: '/recettes', component: Recettes },
+    { path: '/compte', component: Compte }
   ]
 })
 
