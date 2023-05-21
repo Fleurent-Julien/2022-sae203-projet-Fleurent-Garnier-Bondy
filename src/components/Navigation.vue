@@ -12,7 +12,7 @@ import IconInterrogation from '../icons/IconInterrogation.vue';
         <a href="#"><IconCalendar class="block mx-auto" /><p>Planning</p></a>
         <RouterLink to="/"><IconHome class="block mx-auto" /><p>Accueil</p></RouterLink>
         <RouterLink to="/recettes"><IconBook class="block mx-auto" /><p>Recettes</p></RouterLink>
-        <a href="#"><IconAvatar class="block mx-auto" /><p>Compte</p></a>  
+        <RouterLink to="/compte"><IconAvatar class="block mx-auto" /><p>Compte</p></RouterLink>  
 
     </nav>
 </template>
