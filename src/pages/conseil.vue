@@ -2,6 +2,9 @@
 import cardconseils from '@/components/cardconseils.vue';
 import Navigation from '@/components/Navigation.vue';
 import FooterPage from '@/components/FooterPage.vue';
+
+import { useTitle } from '@vueuse/core'
+const title = useTitle('Conseil')
 </script>
 
 <template>

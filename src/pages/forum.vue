@@ -1,6 +1,9 @@
 <script setup lang="ts">
 import FooterPage from '@/components/FooterPage.vue';
 import Navigation from '@/components/Navigation.vue';
+
+import { useTitle } from '@vueuse/core'
+const title = useTitle('Forum')
 </script>
 
 <template>
@@ -19,4 +22,6 @@ import Navigation from '@/components/Navigation.vue';
 
     <button class="flex text-white font-bold m-auto my-10 border-4 border-lime-700 bg-lime-700 px-5 py-1 rounded-full mb-40"><RouterLink to="/contact">Nous contacter</RouterLink></button>
 
+    <Navigation></Navigation>
+           <FooterPage></FooterPage>
 </template>

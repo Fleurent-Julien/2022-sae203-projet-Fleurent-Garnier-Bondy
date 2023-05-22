@@ -12,15 +12,15 @@ import Compte from '@/pages/compte.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
-    { path: '/', component: Accueil },
+    { path: '/', name:'accueil', component: Accueil },
     { path: '/forum', name: 'forum', component: Forum },
-    { path: '/mentions_legales', component: MentionsLegales },
-    { path: '/contact', component: Contact },
-    { path: '/inscription', component: Inscription },
-    { path: '/connexion', component: Connexion },
-    { path: '/conseil', component: Conseil },
-    { path: '/recettes', component: Recettes },
-    { path: '/compte', component: Compte }
+    { path: '/mentions_legales', name:'mentions_legales', component: MentionsLegales },
+    { path: '/contact', name:'contact',component: Contact },
+    { path: '/inscription', name:'inscription', component: Inscription },
+    { path: '/connexion', name:'connexion', component: Connexion },
+    { path: '/conseil', name:'conseil', component: Conseil },
+    { path: '/recettes', name:'recettes', component: Recettes },
+    { path: '/compte', name: 'compte',  component: Compte },
   ]
 })
 

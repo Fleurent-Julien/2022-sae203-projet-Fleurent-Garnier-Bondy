@@ -2,6 +2,9 @@
 import IconArrow from '../icons/IconArrow.vue';
 import FooterPage from '@/components/FooterPage.vue';
 import Navigation from '@/components/Navigation.vue';
+
+import { useTitle } from '@vueuse/core'
+const title = useTitle('Contact')
 </script>
 
 <template>
@@ -40,4 +43,6 @@ import Navigation from '@/components/Navigation.vue';
            <button type="submit" class="flex text-white font-bold m-auto my-10 border-4 border-lime-700 bg-lime-700 px-5 py-1 rounded-full mb-32">Envoyer</button>
        </form>
 
+    <Navigation></Navigation>
+           <FooterPage></FooterPage>
 </template>
