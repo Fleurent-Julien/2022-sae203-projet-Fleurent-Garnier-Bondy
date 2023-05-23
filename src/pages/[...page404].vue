@@ -2,10 +2,20 @@
 export default {
     name: 'NotFound',
 };
+
 </script>
 
 <template>
-    <h1>Pas trouvé : {{ $route.fullPath }}</h1>
-   
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia accusamus cum illo, sequi commodi quidem magni doloribus vel perspiciatis nostrum praesentium sed repellendus ipsam velit in deserunt natus provident architecto deleniti cumque voluptate officiis id, ut quod. Quia voluptates repellat ipsam sint perferendis ipsum maiores, nisi culpa praesentium suscipit natus autem dicta. Dolores obcaecati mollitia expedita quo, deserunt repellendus veritatis, iste aut officia rem sunt voluptatibus asperiores accusamus quae necessitatibus. Consequuntur eligendi dolore inventore ab molestiae, dolorem dolores possimus pariatur, autem sit, magnam esse dicta facere perspiciatis delectus corrupti deleniti est recusandae harum. Ex optio quo illum tempore dolorem vitae explicabo at. Vitae doloremque iure unde debitis, dolores fuga eos nulla ipsam itaque facere recusandae, quae voluptate quos velit deserunt maiores a laborum rerum voluptatibus commodi rem repudiandae corporis soluta amet. Iste aliquid nisi aliquam explicabo omnis illo autem, corporis nam neque aspernatur commodi inventore voluptas, dignissimos nobis reprehenderit voluptatibus a quos debitis doloribus quam quaerat similique unde. Repellat neque nulla culpa ipsam! Quam quisquam quidem in impedit atque magnam ipsum beatae velit itaque laborum eveniet, veniam nihil accusantium eum libero reiciendis necessitatibus odit nesciunt. Officiis ex illum esse fugit aut aliquid cumque quis, deleniti cupiditate veniam fugiat ullam distinctio rem illo ipsa excepturi, reprehenderit voluptate quam magnam quod quas. Veniam accusamus amet, at facere ipsam, laboriosam dignissimos voluptate deserunt aperiam blanditiis eveniet quidem ducimus. Voluptate pariatur eum deleniti nesciunt esse? Deserunt pariatur eligendi impedit ipsa dolore perferendis iure aspernatur modi veritatis, vel, inventore debitis excepturi, porro tempora quaerat ad recusandae eos exercitationem placeat vitae animi laudantium consequuntur laborum. Suscipit iste earum sunt voluptate placeat eveniet excepturi dignissimos beatae accusantium consectetur quidem autem sequi, doloribus voluptatem dolore animi aut saepe praesentium recusandae. Obcaecati recusandae quidem ut voluptate accusamus minus fuga saepe commodi dolor culpa mollitia, dolores ea quas, eligendi expedita eius praesentium ex placeat, quod vel dolorem inventore amet. Fugit eum porro doloremque dignissimos ullam dolores iste aliquam nam, aspernatur natus inventore minima earum et consectetur facilis officia quam nesciunt? Quibusdam id aperiam delectus itaque qui et! Quisquam dolorum velit natus, dignissimos nam alias saepe ex ad, eveniet impedit quia quae a magni cum ducimus atque harum optio iusto rerum rem fuga doloribus dolor! Corrupti voluptatum soluta beatae fuga? Facere cum, perspiciatis mollitia animi inventore corporis blanditiis id voluptates exercitationem vero! Illum temporibus repudiandae officia, atque tenetur ratione nulla tempore corporis fugit possimus rem iusto accusamus quas fuga vel accusantium!</p>
+<div class="bg-lime-600">
+  <div class="absolute border-lime-400 bg-lime-400 border-2 rounded-full -right-6 -top-8 w-36 h-36"></div>
+  <div class="relative border-lime-400 bg-lime-400 border-2 rounded-full -left-24 -top-8 w-40 h-40"></div>
+  
+  <img src="../img/error404.svg" href="image erreur" class="border-lime-400 bg-lime-400 border-2 rounded-full m-auto"/>
+  <div class="text-center text-white my-10">
+  <h1 class="text-5xl font-semibold">Oh Non !</h1>
+  <p class="mt-5 mx-10 text-2xl">Quelque chose n'a pas fonctionné !</p>
+</div>
+  <button class="flex text-white text-center font-bold m-auto border-4 border-lime-700 bg-lime-700 px-10 py-5 rounded-lg"><RouterLink to="/">Retour à la page d'accueil</RouterLink></button>
+  <div class="relative border-lime-400 bg-lime-400 border-2 rounded-t-full -left-10 bottom-0 w-40 h-28 mt-20"></div>
+  </div>
 </template>
