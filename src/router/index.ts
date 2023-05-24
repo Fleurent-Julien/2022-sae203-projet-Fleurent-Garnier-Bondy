@@ -8,6 +8,7 @@ import Accueil from '@/pages/index.vue'
 import Conseil from '@/pages/conseil.vue'
 import Recettes from '@/pages/recettes.vue'
 import Compte from '@/pages/compte.vue'
+import Page404 from '@/pages/[...page404].vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -21,6 +22,7 @@ const router = createRouter({
     { path: '/conseil', name:'conseil', component: Conseil },
     { path: '/recettes', name:'recettes', component: Recettes },
     { path: '/compte', name: 'compte',  component: Compte },
+    { path: '/*', name: 'page404',  component: Page404 },
   ]
 })
 
