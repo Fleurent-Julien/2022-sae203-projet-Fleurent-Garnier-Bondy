@@ -21,7 +21,7 @@ const title = useTitle('Accueil')
   <cardconseils></cardconseils>
   </div>
 
-  <div class="lg:grid lg:grid-cols-2">
+  <div class="lg:grid lg:grid-cols-2 lg:col-span-3">
     <Cardhomecook></Cardhomecook>
     <Cardhomecook></Cardhomecook>
     <Cardhomecook></Cardhomecook>

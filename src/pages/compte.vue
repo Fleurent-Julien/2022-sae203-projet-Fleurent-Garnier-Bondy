@@ -2,12 +2,15 @@
 import IconArrow from '../icons/IconArrow.vue';
 import FooterPage from '@/components/FooterPage.vue';
 import Navigation from '@/components/Navigation.vue';
-
+import HeaderLayout from '@/components/headerlayout.vue';
 import { useTitle } from '@vueuse/core'
 const title = useTitle('Compte')
 </script>
 
 <template>
+   <header class="max-md:hidden lg:visible">
+     <HeaderLayout ></HeaderLayout>
+      </header>
      <header class="bg-lime-700 text-white">
         <div class="flex mx-5 pt-10 justify-center" >
            <RouterLink to="/"><IconArrow class="justify-start"></IconArrow></RouterLink>
