@@ -11,20 +11,22 @@ const title = useTitle('Accueil')
 </script>
 
 <template>
-  <header class="max-md:hidden lg:visible">
+  <header class="max-lg:hidden lg:visible">
   <HeaderLayout ></HeaderLayout>
    </header>
-  <div class="lg:flex lg:grid-cols-5 lg:col-span-2 lg:gap-x-5 lg:justify-center">
+
+   <h1 class="text-4xl font-bold text-lime-700 m-10">Bienvenue !</h1>
+  <div class="lg:flex lg:grid-cols-5 lg:col-span-2 lg:justify-center lg:mx-28">
   <cardconseils></cardconseils>
   <cardconseils></cardconseils>
   <cardconseils></cardconseils>
   <cardconseils></cardconseils>
   </div>
 
-  <div class="lg:grid lg:grid-cols-2 lg:col-span-3">
+  <div class="lg:grid lg:grid-cols-4 mg:grid-cols-2">
+    <Cardhomecook class="lg:col-start-2"></Cardhomecook>
     <Cardhomecook></Cardhomecook>
-    <Cardhomecook></Cardhomecook>
-    <Cardhomecook></Cardhomecook>
+    <Cardhomecook class="lg:col-start-2"></Cardhomecook>
     <Cardhomecook></Cardhomecook>
 </div>
 
