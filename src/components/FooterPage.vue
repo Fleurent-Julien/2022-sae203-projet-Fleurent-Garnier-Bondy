@@ -11,7 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <footer class="bg-neutral-800 py-10 text-white z-10 relative">
         <div class="mx-2 inline-flex items-center">
             <LogoSite></LogoSite>
-            <p class="text-4xl ml-2">French Recipe</p>
+            <p class="text-4xl ml-2">FrenchRecipe</p>
         </div>
     <div class="columns-2 mx-8 my-8 place-content-end leading-10 lg:columns-3 lg:col-span-3">
     <ul>
@@ -36,7 +36,7 @@ import { RouterLink, RouterView } from 'vue-router'
     
 <div class="text-center m-10">
     <p>Projet réalisé dans le cadre d'un exercice pédagogique au département MMI de Montbéliard</p>
-    <p class="my-5">© French Recipe 2023</p>
+    <p class="my-5">© FrenchRecipe 2023</p>
 </div>
     </footer>
 </template>

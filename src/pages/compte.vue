@@ -13,7 +13,7 @@ const title = useTitle('Compte')
       </header>
      <header class="bg-lime-700 text-white">
         <div class="ml-5 pt-10 pb-5" >
-           <RouterLink to="/"><IconArrow class=""></IconArrow></RouterLink>
+           <RouterLink to="/"><IconArrow class=" lg:hidden"></IconArrow></RouterLink>
            <p class="text-lg text-center relative top-0">Profil</p>
         </div>
        </header>

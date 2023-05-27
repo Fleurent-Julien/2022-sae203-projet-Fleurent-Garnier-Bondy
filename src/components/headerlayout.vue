@@ -29,7 +29,7 @@ const menuIsOpen = ref(null)
           aria-expanded="true" @pointerdown="menuIsOpen = !menuIsOpen">Compte</button>
      </nav>
     
-    <nav id="mainNav" v-show="menuIsOpen" class="fixed text-right right-0 ml-5 bg-lime-950 font-bold text-white p-10"> 
+    <nav id="mainNav" v-show="menuIsOpen" class="absolute text-right right-0 ml-5 bg-lime-950 font-bold text-white p-10"> 
         <ul class="space-y-28">
           <li><RouterLink to="/event">Vos évènements</RouterLink></li>
           <li><RouterLink to="/recettes">Vos recettes</RouterLink></li>

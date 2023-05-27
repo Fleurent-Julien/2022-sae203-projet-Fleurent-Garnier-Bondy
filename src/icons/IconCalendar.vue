@@ -1,4 +1,4 @@
-<template><svg id="Calendrier" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50">
+<template><svg id="Calendrier" xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 50 50">
   <g>
     <rect class="cls-1" x="26.1" y="27.52" width="3.62" height="3.62"/>
     <rect class="cls-1" x="21.28" y="27.52" width="3.62" height="3.62"/>

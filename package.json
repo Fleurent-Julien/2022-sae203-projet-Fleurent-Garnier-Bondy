@@ -12,8 +12,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@formkit/vue": "^0.17.2",
     "@unhead/vue": "^1.1.27",
     "@vueuse/core": "^10.1.2",
+    "pocketbase": "^0.15.0",
     "unhead": "^1.1.27",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"

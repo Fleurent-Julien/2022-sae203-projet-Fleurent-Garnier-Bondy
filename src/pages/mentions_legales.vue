@@ -2,6 +2,7 @@
 import FooterPage from '@/components/FooterPage.vue';
 import Navigation from '@/components/Navigation.vue';
 
+
 import { useTitle } from '@vueuse/core'
 const title = useTitle('Mentions légales')
 </script>
@@ -10,13 +11,13 @@ const title = useTitle('Mentions légales')
     <h1 class="text-4xl text-lime-700 ml-5 mr-96 my-5">Mentions légales</h1>
     <div class="border border-lime-500 mb-5 ml-5 mr-52"></div>
 
-    <p class="mx-5 text-lg">Produit Vert s’engage à assurer le meilleur niveau de protection à vos données personnelles.</p>
+    <p class="mx-5 text-lg">FrenchRecipe s’engage à assurer le meilleur niveau de protection à vos données personnelles.</p>
     <p class="mx-5 my-2 text-lg">Pour protéger les internautes des fuites de données ou de l’utilisation abusive des données personnelles, il est désormais obligatoire pour les entreprises de tenir informé les visiteurs de tous les traitements informatiques qui sont effectués à partir des données récoltées.</p>
     <p class="mx-5 text-lg">Nous n’avons rien à cacher, donc nous allons être transparents avec vous !</p>
 
     <h2 class="m-5 font-bold text-2xl">Qui sommes nous ?</h2>
 
-    <p class="mx-5 text-lg">Produit Vert est un site créé par 3 étudiants en MMI (Métiers du Multimédia et de l’Internet). Le siège social est situé au 4 place Tharradin, 25200, Montbéliard, France. Nous respectons votre droit à la vie privée et traitons uniquement les renseignements personnels que vous nous fournissez conformément aux lois sur la protection des données en vigueur.</p>
+    <p class="mx-5 text-lg">FrenchRecipe est un site créé par 3 étudiants en MMI (Métiers du Multimédia et de l’Internet). Le siège social est situé au 4 place Tharradin, 25200, Montbéliard, France. Nous respectons votre droit à la vie privée et traitons uniquement les renseignements personnels que vous nous fournissez conformément aux lois sur la protection des données en vigueur.</p>
 
         <h2 class="m-5 font-bold text-2xl">Renseignements personnels receuillis</h2>
 
@@ -27,8 +28,8 @@ const title = useTitle('Mentions légales')
 
 
             <p class="mx-5 text-lg">Informations, newsletters et mises à jours.</p>
-    <p class="mx-5 my-2 text-lg">Afin de vous tenir informés de nos actualités des avantages dont vous pouvez bénéficier, vous pourrez recevoir des nouvelles de notre site par communication électronique (Email, SMS…). Nous faisons en sorte de ne pas trop vous en envoyer afin de mieux l’adapter à vos besoins et de vous noyer de mails/SMS. Si vous ne souhaitez pas recevoir d’offre d’informations de Produit Vert, vous pouvez vous opposer aux envois en le signalant lors de la création de votre compte, ou à tout moment en le précisant dans les paramètres de votre compte personnel, en contactant notre service client ou en vous désinscrivant de notre newsletter. En fonction des choix émis lors de la création ou consultation de votre compte, vous serez donc susceptibles de recevoir des offres de Produit Vert.</p>
-    <p class="mx-5 text-lg">A contrario, à défaut de sélection et si vous ne vous êtes pas opposés lors de la création de votre compte, vous serez susceptible de recevoir les informations sur l'actualité de Produit Vert et les mises à jour sur le site que vous êtes actuellement en train de consulter.A contrario, à défaut de sélection et si vous ne vous êtes pas opposés lors de la création de votre compte, vous serez susceptible de recevoir les informations sur l'actualité d’Axolott et les mises à jour sur le site que vous êtes actuellement en train de consulter.</p>
+    <p class="mx-5 my-2 text-lg">Afin de vous tenir informés de nos actualités des avantages dont vous pouvez bénéficier, vous pourrez recevoir des nouvelles de notre site par communication électronique (Email, SMS…). Nous faisons en sorte de ne pas trop vous en envoyer afin de mieux l’adapter à vos besoins et de vous noyer de mails/SMS. Si vous ne souhaitez pas recevoir d’offre d’informations de FrenchRecipe, vous pouvez vous opposer aux envois en le signalant lors de la création de votre compte, ou à tout moment en le précisant dans les paramètres de votre compte personnel, en contactant notre service client ou en vous désinscrivant de notre newsletter. En fonction des choix émis lors de la création ou consultation de votre compte, vous serez donc susceptibles de recevoir des offres de FrenchRecipe.</p>
+    <p class="mx-5 text-lg">A contrario, à défaut de sélection et si vous ne vous êtes pas opposés lors de la création de votre compte, vous serez susceptible de recevoir les informations sur l'actualité de FrenchRecipe et les mises à jour sur le site que vous êtes actuellement en train de consulter.A contrario, à défaut de sélection et si vous ne vous êtes pas opposés lors de la création de votre compte, vous serez susceptible de recevoir les informations sur l'actualité d’Axolott et les mises à jour sur le site que vous êtes actuellement en train de consulter.</p>
 
              <h2 class="m-5 font-bold text-2xl">Alertes</h2>
 
@@ -42,9 +43,9 @@ const title = useTitle('Mentions légales')
     <p class="mx-5 my-2 text-lg">Adresse e-mail : contact.produitvert@gmail.com</p>
     <p class="mx-5 my-2 text-lg">N° de téléphone : 03 81 99 47 34</p>
 
-    <h2 class="m-5 font-bold text-2xl">Résumé du site [Nom Projet]</h2>
+    <h2 class="m-5 font-bold text-2xl">Résumé du site FrenchRecipe</h2>
 
-    <p class="mx-5 my-2 text-lg">Dénomination ou raison sociale : Produit Vert</p>
+    <p class="mx-5 my-2 text-lg">Dénomination ou raison sociale : FrenchRecipe</p>
     <p class="mx-5 my-2 text-lg">Nom du responsable de la rédaction pour les sites publiant des contenus éditoriaux : Julien Fleurent</p>
     <p class="mx-5 my-2 text-lg">Coordonnées téléphoniques : 03 81 99 47 34</p>
     <p class="mx-5 my-2 text-lg">Nom du directeur ou du codirecteur de la publication : Gaspard Bondy</p>
