@@ -2,7 +2,7 @@
 import LogoSite from '@/icons/Logo_Site.vue';
 import IconAvatar from '@/icons/IconAvatar.vue';
 import { ref } from 'vue'
-const menuIsOpen = ref(null)
+const menuIsOpen = ref(false)
 </script>
 
 <template>
@@ -26,7 +26,7 @@ const menuIsOpen = ref(null)
                 <RouterLink to="/recettes">Recettes</RouterLink>
             </li>
         </ul>
-         <IconAvatar pointerdown="menuIsOpen" class="w-14 h-14 border-2 rounded-full"/>
+         <IconAvatar @pointerdown="menuIsOpen = !menuIsOpen" class="w-14 h-14 border-2 rounded-full"/>
      </nav>
     
        
