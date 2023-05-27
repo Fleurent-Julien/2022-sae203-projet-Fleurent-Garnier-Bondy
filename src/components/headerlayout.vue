@@ -26,7 +26,7 @@ const menuIsOpen = ref(null)
                 <RouterLink to="/recettes">Recettes</RouterLink>
             </li>
         </ul>
-         <IconAvatar @pointerdown="menuIsOpen = !menuIsOpen" class="w-14 h-14 border-2 rounded-full"/>
+         <IconAvatar pointerdown="menuIsOpen" class="w-14 h-14 border-2 rounded-full"/>
      </nav>
     
        
