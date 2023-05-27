@@ -11,7 +11,7 @@ const props = defineProps<TrouverVotrePlatRecord>()
 
    <div class="mt-5">
 <div class="border border-white rounded-xl mx-5 my-10 shadow-xl shadow-black/50">
-         <img class="flex m-auto h-auto -mt-10 mb-10" :src="urlImg0" />
+         <img class="flex m-auto h-auto -mt-10 mb-10" />
         <div>
             <p class="text-center text-xl">{{ nom_plats }}</p>
         </div>
