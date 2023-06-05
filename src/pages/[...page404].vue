@@ -7,8 +7,8 @@ export default {
 
 <template>
   <main>
-<div class="bg-lime-600 ">
-  <div class="fixed border-lime-400 bg-lime-400 border-2 rounded-full -right-6 -top-8 w-36 h-36"></div>
+<div class="bg-lime-600">
+  <div class="relative border-lime-400 bg-lime-400 border-2 rounded-full -right-6 -top-8 w-36 h-36 z-2"></div>
   <div class="relative border-lime-400 bg-lime-400 border-2 rounded-full -left-24 -top-8 w-40 h-40"></div>
   
   <img src="../img/error404.svg" href="image erreur" class="border-lime-400 bg-lime-400 border-2 rounded-full m-auto"/>

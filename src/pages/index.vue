@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Navigation from '@/components/Navigation.vue'
-import FooterPage from '@/components/FooterPage.vue'
 import cardconseils from '@/components/cardconseils.vue'
 import Cardhomecook from '@/components/cardhomecook.vue'
 import cardevent from '@/components/cardevent.vue'

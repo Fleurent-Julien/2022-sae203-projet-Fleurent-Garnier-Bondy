@@ -6,7 +6,7 @@ const menuIsOpen = ref(false)
 </script>
 
 <template>
-    <header>
+    <header class="z-50">
         <div class="flex items-center"></div>
     <div class="z-50">
         <RouterLink to="/"><LogoSite class="absolute m-8"></LogoSite></RouterLink>

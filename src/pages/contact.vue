@@ -39,7 +39,7 @@ const title = useTitle('Contact')
            </div>
 
             <div class="flex items-center">
-                    <input type="checkbox" class="w-28 h-28">
+                    <input type="checkbox" class="w-20 h-20 lg:m-10 lg:h-10 lg:mt-10">
                     <label for="message" class="text-xs ml-3">J’accepte que les informations saisie dans le formulaire soient utilisées afin de me recontacter ultérieurement.</label>
                   </div>
 

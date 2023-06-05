@@ -7,7 +7,7 @@ import HeaderLayout from '@/components/headerlayout.vue'
 
 <template>
       <header>
-      <HeaderLayout></HeaderLayout>
+      <HeaderLayout class="z-50"></HeaderLayout>
       </header>
       <Suspense>
       <RouterView />
