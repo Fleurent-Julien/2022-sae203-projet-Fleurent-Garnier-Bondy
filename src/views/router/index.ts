@@ -6,7 +6,7 @@ import Inscription from '@/views/inscription.vue'
 import Connexion from '@/views/connexion.vue'
 import Accueil from '@/pages/index.vue'
 import Conseil from '@/pages/conseil.vue'
-import Recettes from '@/pages/recettes.vue'
+import Recettes from '@/pages/recette/index.vue'
 import Compte from '@/pages/compte.vue'
 import Page404 from '@/pages/[...page404].vue'
 

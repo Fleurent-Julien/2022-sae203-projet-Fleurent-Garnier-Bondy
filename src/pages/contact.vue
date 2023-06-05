@@ -1,17 +1,11 @@
 <script setup lang="ts">
 import IconArrow from '../icons/IconArrow.vue';
-import FooterPage from '@/components/FooterPage.vue';
-import Navigation from '@/components/Navigation.vue';
-import HeaderLayout from '@/components/headerlayout.vue';
 
 import { useTitle } from '@vueuse/core'
 const title = useTitle('Contact')
 </script>
 
 <template>
-     <header class="max-lg:hidden lg:visible">
-      <HeaderLayout ></HeaderLayout>
-       </header>
    <header class="bg-lime-700 text-white">
     <div class="flex mx-5 items-center pt-2 space-x-28 lg:hidden">
        <RouterLink to="/forum"><IconArrow></IconArrow></RouterLink>
@@ -52,6 +46,4 @@ const title = useTitle('Contact')
            <button type="submit" class="flex text-white font-bold m-auto my-10 border-4 border-lime-700 bg-lime-700 px-5 py-1 rounded-full mb-32">Envoyer</button>
        </form>
 
-    <Navigation></Navigation>
-           <FooterPage></FooterPage>
 </template>
