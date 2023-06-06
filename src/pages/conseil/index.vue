@@ -8,7 +8,7 @@ const title = useTitle('Conseil')
 </script>
 
 <template>
-   <ul>
+   <ul class="flex justify-center">
       <li v-for="unConseil of listconseils" :v-key="unConseil.id">
         <RouterLink
           :to="{
@@ -16,7 +16,7 @@ const title = useTitle('Conseil')
             params: { id: unConseil.id }
           }"
         >
-          <Cardrecettes v-bind="{ ...unConseil }" />
+          <cardconseils v-bind="{ ...unConseil }" />
         </RouterLink>
       </li>
     </ul>

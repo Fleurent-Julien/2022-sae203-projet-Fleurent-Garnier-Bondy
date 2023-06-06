@@ -18,7 +18,7 @@ const urlImg = pb.files.getUrl(props, img0, { thumb: '200x200' })
     <div class="flex justify-between mx-2 items-center py-5 lg:text-center">
     <IconArrow class="flex lg:hidden"></IconArrow> 
 
-       <p class="text-2xl flex">{{ nom_plats }}</p>
+       <p class="text-2xl">{{ nom_plats }}</p>
        <IconArrow class="flex lg:hidden"></IconArrow>
    </div>
             <img :src="urlImg" class="w-8/12 h-8/12 lg:w-3/12 lg:3/12 flex m-auto rounded-full">

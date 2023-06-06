@@ -5,7 +5,6 @@
 export enum Collections {
 	Plats = "plats",
 	ProchainsEvenements = "prochains_evenements",
-	RecettesDeNosExperts = "recettes_de_nos_experts",
 	TipsEtAstuces = "tips_et_astuces",
 	Users = "users",
 }
@@ -49,20 +48,11 @@ export type PlatsRecord = {
 export type ProchainsEvenementsRecord = {
 	images_evenements?: string
 	date_evenements?: IsoDateString
-	etat_evenements?: boolean
+	etat_evenements?: string
 	nom_evenements?: string
 	lieu1_evenements?: string
 	lieu2_evenements?: string
 	duree?: number
-}
-
-export type RecettesDeNosExpertsRecord = {
-	date_recettes_experts?: IsoDateString
-	favoris_recettes_experts?: boolean
-	nom_recettes_experts?: string
-	lieu1_recettes_experts?: string
-	lieu2_recettes_experts?: string
-	images_recettes_experts?: string
 }
 
 export type TipsEtAstucesRecord = {
@@ -82,7 +72,6 @@ export type UsersRecord = {
 // Response types include system fields and match responses from the PocketBase API
 export type PlatsResponse = Required<PlatsRecord> & BaseSystemFields
 export type ProchainsEvenementsResponse = Required<ProchainsEvenementsRecord> & BaseSystemFields
-export type RecettesDeNosExpertsResponse = Required<RecettesDeNosExpertsRecord> & BaseSystemFields
 export type TipsEtAstucesResponse = Required<TipsEtAstucesRecord> & BaseSystemFields
 export type UsersResponse = Required<UsersRecord> & AuthSystemFields
 
@@ -91,7 +80,6 @@ export type UsersResponse = Required<UsersRecord> & AuthSystemFields
 export type CollectionRecords = {
 	plats: PlatsRecord
 	prochains_evenements: ProchainsEvenementsRecord
-	recettes_de_nos_experts: RecettesDeNosExpertsRecord
 	tips_et_astuces: TipsEtAstucesRecord
 	users: UsersRecord
 }
@@ -99,7 +87,6 @@ export type CollectionRecords = {
 export type CollectionResponses = {
 	plats: PlatsResponse
 	prochains_evenements: ProchainsEvenementsResponse
-	recettes_de_nos_experts: RecettesDeNosExpertsResponse
 	tips_et_astuces: TipsEtAstucesResponse
 	users: UsersResponse
 }

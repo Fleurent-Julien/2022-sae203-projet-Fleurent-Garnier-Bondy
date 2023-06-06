@@ -21,7 +21,7 @@ const urlImg = pb.files.getUrl(props, img0, { thumb: '200x200' })
 
       <div class="space-y-0.5 mb-5">
         <h2 class="font-bold text-lg">{{ nom_plats }}</h2>
-        <p>{{ calories }}</p>
+        <p>{{ calories }} calories</p>
         <p class="text-sm">{{ ville }}</p>
       </div>
     </div>

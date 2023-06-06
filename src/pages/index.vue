@@ -18,7 +18,7 @@ const title = useTitle('Accueil')
 <template>
   <h1 class="text-4xl font-bold text-lime-700 m-10">Bienvenue !</h1>
   <div>
-                <ul class="lg:grid lg:grid-cols-3">
+                <ul class="lg:grid lg:grid-cols-2 justify-center">
         <li v-for="unEvent of listEvent" v-bind="{ ...unEvent }">
           <RouterLink
             :to="{
@@ -57,7 +57,7 @@ const title = useTitle('Accueil')
   <h2 class="text-2xl font-bold ml-5">Tips & Astuces</h2>
 
   <div>
-        <ul class="lg:grid lg:grid-cols-3">
+        <ul class="lg:flex lg:grid-cols-3 justify-center">
         <li v-for="unConseil of listtips" v-bind="{ ...unConseil }">
           <RouterLink
             :to="{
