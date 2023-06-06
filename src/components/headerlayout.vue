@@ -23,7 +23,7 @@ const menuIsOpen = ref(false)
         </ul>
         <ul>
             <li>
-                <RouterLink to="/recettes">Recettes</RouterLink>
+                <RouterLink to="/recette">Recettes</RouterLink>
             </li>
         </ul>
          <IconAvatar @pointerdown="menuIsOpen = !menuIsOpen" class="w-14 h-14 border-2 rounded-full"/>
@@ -39,7 +39,7 @@ const menuIsOpen = ref(false)
     <nav v-show="menuIsOpen" class="absolute text-right text-xl right-0 ml-5 bg-lime-950 font-bold text-white p-10 rounded-xl"> 
         <ul class="space-y-28">
           <li><RouterLink to="/event">Vos évènements</RouterLink></li>
-          <li><RouterLink to="/recettes">Vos recettes</RouterLink></li>
+          <li><RouterLink to="/recette">Vos recettes</RouterLink></li>
           <li><RouterLink to="/conseil">Vos conseils / astuces</RouterLink></li>
           <li><RouterLink to="/favoris">Favoris</RouterLink></li>
         </ul>

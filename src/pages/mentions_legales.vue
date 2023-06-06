@@ -1,8 +1,4 @@
 <script setup lang="ts">
-import FooterPage from '@/components/FooterPage.vue';
-import Navigation from '@/components/Navigation.vue';
-
-
 import { useTitle } from '@vueuse/core'
 const title = useTitle('Mentions légales')
 </script>
@@ -55,7 +51,4 @@ const title = useTitle('Mentions légales')
     <p class="mx-5 my-2 text-lg">Raison sociale : Infomaniak</p>
     <p class="mx-5 my-2 text-lg">Adresse : 25 Eugène-Marziano,1227 Les Acacias, Genève, Suisse</p>
     <p class="mx-5 mt-2 mb-40 text-lg">Numéro de téléphone : 08 11 14 30 70</p>
-
-    <Navigation></Navigation>
-           <FooterPage></FooterPage>
 </template>

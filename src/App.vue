@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+
 import Navigation from '@/components/Navigation.vue'
 import FooterPage from '@/components/FooterPage.vue'
 import HeaderLayout from '@/components/headerlayout.vue'
@@ -7,7 +8,7 @@ import HeaderLayout from '@/components/headerlayout.vue'
 
 <template>
       <header>
-      <HeaderLayout class="z-50"></HeaderLayout>
+      <HeaderLayout class="z-50 max-lg:hidden"></HeaderLayout>
       </header>
       <Suspense>
       <RouterView />

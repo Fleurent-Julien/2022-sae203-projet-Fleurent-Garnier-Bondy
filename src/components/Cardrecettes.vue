@@ -1,5 +1,7 @@
 <script setup lang="ts">;
-import LogoInsta from '@/icons/LogoInsta.vue';
+import Icon_Personnes from '@/icons/Icon_Personnes_Green.vue';
+import IconTime from '@/icons/Icon_Time_Green.vue'
+
 import { pb } from '@/backend'
 import type { PlatsResponse } from '@/pocketbase-types';
 const props: PlatsResponse = defineProps<PlatsResponse>()
@@ -17,14 +19,14 @@ const urlImg = pb.files.getUrl(props, img0, { thumb: '200x200' })
             <p class="text-center text-xl">{{ nom_plats }}</p>
         </div>
 
-    <div class="flex justify-between mx-5 my-1">
+    <div class="flex justify-around mx-5 my-1">
         <div>
-            <LogoInsta></LogoInsta>
+            <Icon_Personnes class="ml-2" />
             <p>{{ preparation_plats }} min</p>
         </div>
         <div class="border-2 border-lime-400 rounded-full my-3"></div>
         <div>
-            <LogoInsta></LogoInsta>
+            <IconTime class="ml-2"/>
                 <p>{{ personne_plats}} pers</p>
             </div>
     </div>

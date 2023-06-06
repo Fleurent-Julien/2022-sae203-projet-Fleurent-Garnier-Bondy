@@ -12,8 +12,8 @@ const title = useTitle('Recettes')
 
 <template>
 
-  <div class="lg:grid lg:grid-cols-4 lg:columns-4">
-    <ul>
+  <div>
+    <ul class="lg:grid lg:grid-cols-3 mt-10">
       <li v-for="recette of listrecette" v-bind="{ ...recette }" :v-key="recette.id">
         <RouterLink
           :to="{

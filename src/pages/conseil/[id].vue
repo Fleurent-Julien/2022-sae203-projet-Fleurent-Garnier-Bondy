@@ -5,5 +5,4 @@ const props = defineProps<{ id: string }>()
 const unConseil = await one2ID(props.id)
 </script>
 <template>
-  <cardconseils v-bind="{ ...unConseil }" />
 </template>

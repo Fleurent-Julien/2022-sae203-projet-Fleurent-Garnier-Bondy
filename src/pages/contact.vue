@@ -15,26 +15,26 @@ const title = useTitle('Contact')
     <h1 class="text-center font-bold text-3xl py-10">Formulaire de contact</h1>
    </header>
    
-       <form class="m-10">
+       <form class="m-5 lg:m-32">
 
            <div class="grid"> 
-               <label for="last-name" class="text-2xl">Nom</label>
+               <label for="last-name" class="text-xl">Nom</label>
                <input type="text" name="first-name" id="first-name" class="border border-lime-600 bg-blue-100 rounded-xl text-2xl mb-5">
            </div>
 
            <div class="grid">
-               <label for="mail" class="text-2xl">Mail</label>
+               <label for="mail" class="text-xl">Mail</label>
                <input type="text" name="mail" id="mail" class="border border-lime-600 bg-blue-100 rounded-xl text-2xl mb-5">
            </div>
 
            <div class="grid">
-                  <label for="sujet" class="text-2xl">Objet</label>
+                  <label for="sujet" class="text-xl">Objet</label>
                   <input type="text" name="sujet" id="sujet" class="border border-lime-600 bg-blue-100 rounded-xl text-2xl mb-5">
               </div>
 
 
            <div class="grid">
-               <label for="message" class="text-2xl">Message</label>
+               <label for="message" class="text-xl">Message</label>
                <textarea rows=6 name="message" id="message" class="border border-lime-600 bg-blue-100 rounded-xl text-sm"></textarea>
            </div>
 

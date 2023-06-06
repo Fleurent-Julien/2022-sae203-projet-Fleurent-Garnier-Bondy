@@ -16,9 +16,9 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="columns-2 mx-8 my-8 place-content-end leading-10 lg:columns-3 lg:col-span-3">
     <ul>
         <li class="before:content-['-']"><RouterLink to="/compte"> Mon compte</RouterLink></li>
-        <li class="before:content-['-']"><RouterLink to="/recettes"> Recettes</RouterLink></li>
+        <li class="before:content-['-']"><RouterLink to="/recette"> Recettes</RouterLink></li>
         <li class="before:content-['-']"><RouterLink to="/conseil"> Conseils d'experts</RouterLink></li>
-        <li class="before:content-['-']"><a href="#"> Planning</a></li>
+        <li class="before:content-['-']"><RouterLink to="/planning"> Planning</RouterLink></li>
         <li class="before:content-['-']"><RouterLink to="/contact"> Contact</RouterLink></li>
         <li class="before:content-['-']" ><RouterLink to="/forum"> Besoin d'aide</RouterLink></li>
         <li class="before:content-['-']"><RouterLink to="/mentions_legales"> Mentions légales</RouterLink></li>
